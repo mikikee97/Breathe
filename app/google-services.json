@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49047351700",
+    "firebase_url": "https://breathe-6132d.firebaseio.com",
+    "project_id": "breathe-6132d",
+    "storage_bucket": "breathe-6132d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49047351700:android:f97b283a3d878237",
+        "android_client_info": {
+          "package_name": "com.example.breathe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49047351700-ljintc73pdrem5r7aaandout1thffo87.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.breathe",
+            "certificate_hash": "084f61aa2b742afb3b517392d1a9d6c9eaeed15e"
+          }
+        },
+        {
+          "client_id": "49047351700-1dancnar91el71ejq7a8pqdkoe3uj5kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcGFmUv0Egbs-hwkRiWSCaMCxTsn2FTYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49047351700-1dancnar91el71ejq7a8pqdkoe3uj5kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

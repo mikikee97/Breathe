@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@color/lightBeige"
+    >
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="300dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="114dp"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editLocation"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="101dp"
+        android:ems="10"
+        android:hint="Location"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_width="218dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/editDescription"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="121dp"
+        android:paddingLeft="7dp"
+        android:text="Date"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/pickDate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dateDisplay"
+        android:layout_alignEnd="@+id/save_btn"
+        android:layout_alignBottom="@+id/dateDisplay"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="-2dp"
+        android:onClick="pickDate_clicked"
+        android:text="select date" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="209dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/pickDate"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+
+        android:layout_marginTop="34dp"
+        android:paddingLeft="7dp"
+        android:text="Time"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/pickTime"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+
+        android:layout_alignStart="@+id/pickDate"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="-8dp"
+        android:onClick="pickTime_clicked"
+        android:text="select time" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLocation"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-124dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="33dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="save_btn_clicked"
+        android:text="Add Activity"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
